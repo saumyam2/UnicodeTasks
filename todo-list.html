@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body style="background-image: url('https://images.pexels.com/photos/4705852/pexels-photo-4705852.jpeg?auto=compress&cs=tinysrgb&w=600');">
+    <div class="text-center h-full w-full flex flex-col mx-5 bg-scroll">
+    <h1 class="underline underline-offset-4 text-center font-bold text-2xl my-4 mb-5">To-Do List</h1>
+    
+    <table class="mx-5 table-auto border-r-4 border-spacing-x-4 border-black">
+        <thead>
+        <tr>
+            <th class="border-r-4 border-b-2 border-black">ID</th>
+            <th class="border-r-4 border-b-2 border-black">Title</th>
+            <th class="border-r-4 border-b-2 border-black">Status</th>
+            <th class=" border-r-4 border-b-2 border-black">Edit</th>
+            <th class="border-b-2 border-black">Delete</th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    </div>
+
+    <script src="todo-script.js"></script>
+</body>
+</html>
